@@ -5,7 +5,7 @@ body{
     background-color: #7B70CD;
 }
 .Conteneur{
-    width: 50%;
+    width: 60%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -49,7 +49,7 @@ header{
     border-radius: 10px;
     background-color: #FFFFFF;
     background: linear-gradient(to right, #fff, #fff) padding-box,
-     linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) border-box;
+     linear-gradient(to right, rgb(211, 110, 9), rgb(255, 128, 0), yellow, green, blue, indigo, violet) border-box;
 }
 
 .Sousect1{
@@ -77,7 +77,7 @@ header{
     background-color: #FFFFFF;
     border: solid 3px transparent;
     background: linear-gradient(to right, #fff, #fff) padding-box,
-     linear-gradient(to right, rgb(0, 255, 119), orange, yellow, green, rgb(187, 25, 87), indigo, violet) border-box;
+     linear-gradient(to right, rgb(5, 225, 236), orange, yellow, green, rgb(187, 25, 87), indigo, violet) border-box;
     border-bottom: 0;
     border-right: 0; 
 }
@@ -104,7 +104,7 @@ header{
     border-radius: 10px;
     background-color: #FFFFFF;
     background: linear-gradient(white, white) padding-box,
-     linear-gradient(to right, rgb(5, 201, 201), rgb(245, 2, 2), yellow, rgb(5, 239, 5), rgb(187, 25, 87), rgb(139, 5, 235), rgb(232, 4, 232)) border-box ;
+     linear-gradient(to right, rgb(242, 255, 2), rgb(245, 2, 2), yellow, rgb(5, 239, 5), rgb(187, 25, 87), rgb(139, 5, 235), rgb(232, 4, 232)) border-box ;
     border-bottom: 0;
     border-right: 0;
 }
@@ -114,13 +114,13 @@ header{
 }
 .Sect5{
     border: solid 3px transparent;
-    width: 35%;
+    width: 30%;
     height: 70px;
     padding: 15px;
     border-radius: 10px;
     background-color: #FFFFFF;
     background: linear-gradient(white, white) padding-box,
-     linear-gradient(to left, rgb(8, 193, 225), rgb(245, 2, 2), yellow, rgb(5, 239, 5), rgb(187, 25, 87), rgb(139, 5, 235), rgb(232, 4, 232)) border-box ;
+     linear-gradient(to right, rgb(253, 208, 3), rgb(245, 2, 2), yellow, rgb(5, 239, 5), rgb(187, 25, 87), rgb(139, 5, 235), rgb(232, 4, 232)) border-box ;
     border-bottom: 0;
     border-right: 0;
 }
