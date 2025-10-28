@@ -1,0 +1,193 @@
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7B70CD;
+}
+.Conteneur{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header p{
+    color: white;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+p{
+    font-style: italic;
+    color: #3b3838;
+    font-size: 1rem;
+}
+h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+h4{
+    color: #333;
+}
+header{
+    text-align: center;
+    color: white;
+}
+.Champ1{
+    display: flex;
+    gap: 20px;
+}
+.fa-solid{
+    color: orange;
+    font-size: 0.8rem;
+}
+.Sect1{
+    width: 70%;
+    padding: 15px;
+    border: solid 3px transparent;
+    border-bottom: 0;
+    border-right: 0;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    background: linear-gradient(to right, #fff, #fff) padding-box,
+     linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) border-box;
+}
+
+.Sousect1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Sousect2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Sousect2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Sousect2 h4, .Sousect2 p{
+    margin: 0;
+}
+.Sect2{
+    width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: solid 3px transparent;
+    background: linear-gradient(to right, #fff, #fff) padding-box,
+     linear-gradient(to right, rgb(0, 255, 119), orange, yellow, green, rgb(187, 25, 87), indigo, violet) border-box;
+    border-bottom: 0;
+    border-right: 0; 
+}
+.Champ2{
+    width: 68%;
+    gap: 20px;
+    display: flex;
+}
+.Sect3{
+    border: solid 3px transparent; 
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    background: linear-gradient( white, white) padding-box,
+    linear-gradient(to right, rgb(11, 176, 170), orange, rgba(233, 233, 4, 0.918), green, rgb(187, 25, 87), indigo, rgb(217, 18, 217)) border-box ;
+    border-bottom: 0;
+    border-right: 0;
+}
+.Sect4{
+    border: solid 3px transparent;
+    width: 100%;
+     padding: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    background: linear-gradient(white, white) padding-box,
+     linear-gradient(to right, rgb(5, 201, 201), rgb(245, 2, 2), yellow, rgb(5, 239, 5), rgb(187, 25, 87), rgb(139, 5, 235), rgb(232, 4, 232)) border-box ;
+    border-bottom: 0;
+    border-right: 0;
+}
+.Champ3{
+    display: flex;
+    gap: 20px;
+}
+.Sect5{
+    border: solid 3px transparent;
+    width: 35%;
+    height: 70px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    background: linear-gradient(white, white) padding-box,
+     linear-gradient(to left, rgb(8, 193, 225), rgb(245, 2, 2), yellow, rgb(5, 239, 5), rgb(187, 25, 87), rgb(139, 5, 235), rgb(232, 4, 232)) border-box ;
+    border-bottom: 0;
+    border-right: 0;
+}
+.Sect1,.Sect2,.Sect3,.Sect4, .Sect5{
+    box-shadow: 0px 1px 15px 1px #222222;
+} 
+
+@media (max-width:768px) {
+    .Conteneur{
+        width: 100%;
+        align-items: center;
+    }
+   .Champ1{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+   }
+    .Champ2{
+     flex-direction: column;
+     width: 100%;
+     align-items: center;
+    }
+    .Champ3{
+     flex-direction: column;
+     width: 100%;
+     align-items: center;
+    }
+   .Sect1, .Sect2, .Sect3, .Sect4{
+    width: 90%;
+   }
+   .Sect5{
+    width: 90%;
+    }
+    section .Sect5{
+        align-items: center;
+    }
+
+}
+@media (max-width: 1024px) {
+    .Conteneur{
+        width: 90%;
+    }
+}
+@media (max-width:425px) {
+    h1{
+        font-size: 1.6rem;
+    }
+    header p{
+        font-size: 1rem;
+    }
+    .Sousect1{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .Sousect2{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .Sect5{
+    height: 40%;
+   
+}
+}
+@media (max-width:1440px) {
+    .Conteneur{
+        width: 90%;
+    }
+}
